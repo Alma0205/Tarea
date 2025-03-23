@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    background-color: rgb(245, 240, 234);
+    color: #333;
+    line-height: 3;
+    font-size: 17px;
+}
+label{
+    color: #666666;
+}
+h2{
+    font-size: 40px;
+}
