@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-image: url(images/collage\ fondo.jpg);
+    background-position: center;
+    color: #ffffff;
+    line-height: 2;
+    font-size: 14px;
+    padding-top: 100px;
+}
+h2{
+    font-size: 50px;
+    font-family: 'creepster';
+    color: #c71f1f;
+}
+label{
+    font-size: 25px;
+}
+input{
+    width: 250px;
+    height: 25px;
+    font-size: 14px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    background-color:  rgb(105, 14, 14);
+    border: 0;
+    color: #c2c2c2;
+}
