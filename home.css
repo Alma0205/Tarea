@@ -37,6 +37,7 @@ body {
     height: 100vh;
     object-fit: cover;
     display: block;
+    filter: brightness(40%)
   }
   .footer {
     background-color: #222;
@@ -74,5 +75,14 @@ body {
   
   .footer-enlaces li a:hover {
     color: #fff;
+  }
+  h2{
+    color: rgb(255, 56, 56);
+    font-family: 'creepster';
+    font-size: 250px;
+    position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   }
   

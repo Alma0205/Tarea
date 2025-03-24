@@ -1,32 +1,43 @@
 body {
-    text-align: center;
-    background-image: url(images/collage\ fondo.jpg);
-    background-position: center;
-    color: #ffffff;
-    line-height: 2;
-    font-size: 14px;
-    padding-top: 100px;
+  text-align: center;
+  background-image: url(images/collage\ fondo.jpg);
+  background-position: center;
+  color: #ffffff;
+  line-height: 2;
+  font-size: 14px;
+  padding-top: 100px;
 }
-h2{
-    font-size: 50px;
-    font-family: 'creepster';
-    color: #c71f1f;
+h2 {
+  font-size: 100px;
+  font-family: "creepster";
+  color: rgb(231, 38, 38);
 }
-label{
-    font-size: 25px;
+label {
+  font-size: 25px;
+  font-weight: 700;
 }
-input{
-    width: 250px;
-    height: 25px;
-    font-size: 14px;
+input {
+  width: 250px;
+  height: 25px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 0px;
 }
-button{
-    width: 150px;
-    height: 50px;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 10px;
-    background-color:  rgb(105, 14, 14);
-    border: 0;
-    color: #c2c2c2;
+button {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 10px;
+  background-color: rgb(231, 38, 38);
+  color: #ffffff;
+  border: 0px;
+  cursor: pointer;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
