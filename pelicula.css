@@ -1,0 +1,39 @@
+.psicosis{
+    width: 500px;
+}
+.resplandor{
+    width: 490px;
+}
+.carteleraspeli{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+}
+.Lanoche{
+width: 500px;
+}
+.vamp{
+    width: 500px;
+}
+.exo{
+    width: 500px;
+}
+.franqui{
+    width: 500px;
+}
+.momia{
+    width: 500px;
+}
+.lobo{
+    width: 500px;
+}
+.vam{
+ width: 500px;
+}
+h2{
+    font-size: 75px;
+    text-align: center;
+    font-family: 'creepster';
+}
