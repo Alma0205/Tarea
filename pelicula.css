@@ -1,9 +1,17 @@
-.psicosis{
-    width: 500px;
+body{
+    background-image: url(./images/fondo.jpg);
+    color:  rgb(255, 56, 56);
+    align-items: normal;
+    font-family: Arial, sans-serif;
 }
-.resplandor{
-    width: 490px;
+img{
+  border-radius: 10px;
+    transition: transform 0.5s ease-in-out; 
 }
+img:hover {
+    transform: scale(1.2); 
+}
+
 .carteleraspeli{
     display: flex;
     justify-content: space-between;
@@ -11,8 +19,17 @@
     flex-wrap: wrap-reverse;
     flex-direction: row;
 }
+.psicosis{
+    width: 500px;
+}
+.resplandor{
+    width: 480px;
+height: 710px;
+
+}
 .Lanoche{
-width: 500px;
+width: 480px;
+height: 715px;
 }
 .vamp{
     width: 500px;
@@ -21,19 +38,64 @@ width: 500px;
     width: 500px;
 }
 .franqui{
-    width: 500px;
+    width: 490px;
+    height: 753px;
 }
 .momia{
     width: 500px;
+    height: 754px;
 }
 .lobo{
     width: 500px;
 }
 .vam{
  width: 500px;
+ height: 754px;
 }
 h2{
     font-size: 75px;
     text-align: center;
     font-family: 'creepster';
 }
+h3{
+    font-size: 50px;
+    font-family: 'UnifrakturCook';
+    color: aliceblue;
+}
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 30px 40px;
+    text-align: center;
+    margin-top: 0px;
+  }
+  
+  .footer-contenido {
+    max-width: 1000px;
+    margin:  auto;
+  }
+  
+  .footer p {
+    margin: 10px;
+    font-size: 16px;
+  }
+  
+  .footer-enlaces {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .footer-enlaces li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .footer-enlaces li a:hover {
+    color: #fff;
+  }
