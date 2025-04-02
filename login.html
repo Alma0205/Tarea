@@ -4,26 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
     <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+    <!--     <link rel="stylesheet" href="login.css"> -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
 </head>
 
-<body class="text-center bg-[url(/.images/collage fondo.jpg)] bg-center text-white leading-[2] text-[14px] pt-[100]">
-    <div class="login">
-        <h2 text-[100px] font-[creepster] text-red-300>Iniciar Sesión</h2>
+<body class="text-center bg-[url(./images/collagefondo.jpg)] bg-center text-white leading-[2] text-[14px] pt-[100]">
+    <div class="flex flex-col items-center gap-4">
+        <h2 class="text-[100px] text-red-600">Iniciar Sesión</h2>
 
-        <label for="correo">Correo</label>
+        <label class="text-[100px] font-[700] text-red-600" for="correo">Correo</label>
 
-        <input type="text" id="correo" name="correo" placeholder="Escriba su Correo" required>
+        <input class="w-[250px] h-[25px] text-[14px] rounded-[5px] border-0" type="text" id="correo" name="correo"
+            placeholder="Escriba su Correo" required>
 
-        <label for="contraseña">Contraseña</label>
+        <label class="text-[100px] font-[700] text-red-600" for="contraseña">Contraseña</label>
 
-        <input type="text" id="contraseña" name="contraseña" placeholder="Escriba su contraseña" required>
+        <input class="w-[250px] h-[25px] text-[14px] rounded-[5px] border-0" type="text" id="contraseña"
+            name="contraseña" placeholder="Escriba su contraseña" required>
 
 
         <a href="home.html">
-            <button type="submit">Iniciar Sesión</button>
+            <button
+                class="w-[150px] h-[50px] text-[20px] rounded-[10px] bg-red-700 decoration-red-700 border-0 cursor-pointer font-[Franklin Gothic Medium, Arial Narrow, Arial, sans-serif]"
+                 type="submit">Iniciar Sesión</button>
         </a>
     </div>
 </body>

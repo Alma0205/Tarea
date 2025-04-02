@@ -1,21 +1,29 @@
+h2 {
+  font-family: "creepster";
+}
+
+label {
+  font-family: "creepster";
+}
+
+/* 
 body {
   text-align: center;
-  background-image: url(images/collage\ fondo.jpg);
+  background-image: url(./images/collage\ fondo.jpg);
   background-position: center;
   color: #ffffff;
   line-height: 2;
   font-size: 14px;
   padding-top: 100px;
 }
-h2 {
-  font-size: 100px;
-  font-family: "creepster";
-  color: rgb(231, 38, 38);
-}
-label {
+
+.label {
   font-size: 25px;
   font-weight: 700;
 }
+
+
+
 input {
   width: 250px;
   height: 25px;
@@ -41,3 +49,4 @@ button {
   align-items: center;
   gap: 20px;
 }
+ */
