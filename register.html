@@ -6,20 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
     <link rel="stylesheet" href="register.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <div class="registro-cuadro">
-        <h2>Registrarse</h2>
+<body class="text-center bg-[url(./images/inicioimg.jpg)] bg-center text-white leading-[2] text-base/14" >
+    <div class="registro-cuadro flex flex-col items-center gap-10"> <!-- este va aca el ultimo -->
+        <h2 class="text-100 font-creepster" >Registrarse</h2>
 
-        <label for="Nombre">Nombre:</label>
-        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre aquí" required>
+        <label class="text-25 font-thin" for="Nombre">Nombre:</label>
+        <input class="border w-250 h-25 text-14 rounded-5" type="text" id="Nombre" name="Nombre" placeholder="Nombre aquí" required>
 
 
         <label for="lugar">¿De que país eres?</label>
         
-        <select id="lugar" name="lugar" required>
+        <select class="border w-35 h-15 text-14 rounded-5" id="lugar" name="lugar" required>
             <option value="Colombia">Colombia</option>
             <option value="México">México</option>
             <option value="Panamá">Panamá</option>
@@ -36,26 +37,26 @@
 
         
 
-        <label for="edad">Edad</label>
+        <label class="text-25 font-thin" for="edad">Edad</label>
         
-        <input type="number" id="edad" name="edad" placeholder="Agrega tu Edad" required>
+        <input class="border w-250 h-25 text-14 rounded-5" type="number" id="edad" name="edad" placeholder="Agrega tu Edad" required>
 
         
 
-        <label for="correo">Correo</label>
+        <label class="text-25 font-thin" for="correo">Correo</label>
         
-        <input type="text" id="correo" name="correo" placeholder="Ejemplo@gmail.com" required>
+        <input class="border w-250 h-25 text-14 rounded-5" type="text" id="correo" name="correo" placeholder="Ejemplo@gmail.com" required>
 
         
 
-        <label for="contraseña">Contraseña</label>
+        <label class="text-25 font-thin" for="contraseña">Contraseña</label>
         
-        <input type="text" id="contraseña" name="contraseña" placeholder="Agrega tu Contraseña" required>
+        <input class="border w-250 h-25 text-14 rounded-5" type="text" id="contraseña" name="contraseña" placeholder="Agrega tu Contraseña" required>
 
         
 
         <a href="login.html">
-            <button type="submit">Crear Cuenta</button>
+            <button class="w-70 h-20 text-24 font-[Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif] bg-red-600 border rounded-10 mt-15 cursor-pointer" type="submit">Crear Cuenta</button>
         </a>
     </div>
 </body>

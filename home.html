@@ -4,29 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="home.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
 </head>
-<body>
-    <nav class="menu-nav">
-        <ul class="menu-lista">
-            <li><a href="pelicula.html">Películas</a></li>
-            <li><a href="">Criaturas y Villanos</a></li>
-            <li><a href="detras.html">Detrás de Cámaras</a></li>
-            <li><a href="#">Top Clásicos</a></li>
+<body class="m-0 font-serif">
+  <nav class="bg-[#141212] p-[5px] h-[50px] flex justify-around">
+      <ul class="list-none flex gap-[370px] m-0 p-0 text-white">
+          <li class="rounded-[5px] text-white no-underline text-[18px] p-2 transition-colors duration-400 hover:bg-[#555]">
+              <a href="pelicula.html">Películas</a>
+          </li>
+          <li class="rounded-[5px] text-white no-underline text-[18px] p-2 transition-colors duration-400 hover:bg-[#555]">
+              <a href="#">Criaturas y Villanos</a>
+          </li>
+          <li class="rounded-[5px] text-white no-underline text-[18px] p-2 transition-colors duration-400 hover:bg-[#555]">
+              <a href="detras.html">Detrás de Cámaras</a>
+          </li>
+          <li class="rounded-[5px] text-white no-underline text-[18px] p-2 transition-colors duration-400 hover:bg-[#555]">
+              <a href="#">Top Clásicos</a>
+          </li>
+      </ul>
+  </nav>
+    <img src="./images/inicio img.jpg" alt="imagen inicio" class="w-100% h-100px object-cover block brightness-[40%]">
+    <h2 class="text-red-500 font-[Creepster] text-[80px] sm:text-[120px] md:text-[170px] lg:text-[200px] xl:text-[250px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Clásicos De Terror</h2>
+    <footer class="bg-[#141212] text-white p-[10px] text-center mt-0 max-w-[1000000px] mx-auto">
+      <div class="max-w-1000px m-auto">
+        <p>&copy; 2025 Web. Todos los derechos reservados.</p>
+        <ul class="">
+          <li class="text-white underline text-[16px] transition-colors duration-300 hover:text-gray-300">
+            <a href="#">Servicios</a>
+          </li>
+          <li class="text-white underline text-[16px] transition-colors duration-300 hover:text-gray-300">
+            <a href="#">Contacto</a>
+          </li>
+          <li class="text-white underline text-[16px] transition-colors duration-300 hover:text-gray-300">
+            <a href="">Privacidad</a>
+          </li>
         </ul>
-    </nav>
-    <img src="./images/inicio img.jpg" alt="imagen inicio">
-    <h2>Clásicos De Terror</h2>
-    <footer class="footer">
-        <div class="footer-contenido">
-          <p>&copy; 2025 Mi Página Web. Todos los derechos reservados.</p>
-          <ul class="footer-enlaces">
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Privacidad</a></li>
-          </ul>
-        </div>
-      </footer>
+      </div>
+    </footer>
 </body>
 </html>
