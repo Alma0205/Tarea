@@ -1,36 +1,49 @@
-h2 {
-  font-family: "creepster";
-}
-
-label {
-  font-family: "creepster";
-}
-
-/* 
 body {
+  margin: 0;
   text-align: center;
-  background-image: url(./images/collage\ fondo.jpg);
+  background-image: url('./images/collagefondo.jpg');
   background-position: center;
-  color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
   line-height: 2;
   font-size: 14px;
   padding-top: 100px;
+  font-family: Arial, sans-serif;
 }
 
-.label {
-  font-size: 25px;
-  font-weight: 700;
+h2,
+label {
+  font-family: 'Creepster', cursive;
+  color: rgb(231, 38, 38);
+  margin: 10px 0;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 350px;
+  margin: 0 auto;
+  background: rgba(20, 18, 18, 0.7);
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(231, 38, 38);
 }
 
 
 
 input {
   width: 250px;
-  height: 25px;
+  height: 30px;
   font-size: 14px;
   border-radius: 5px;
-  border: 0px;
+  border: none;
+  padding: 5px 10px;
+  font-family: Arial, sans-serif;
 }
+
 button {
   width: 150px;
   height: 50px;
@@ -39,14 +52,15 @@ button {
   border-radius: 10px;
   background-color: rgb(231, 38, 38);
   color: #ffffff;
-  border: 0px;
+  border: none;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.login {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
+button:hover {
+  background-color: rgb(180, 30, 30);
 }
- */
+
+a {
+  text-decoration: none;
+}
