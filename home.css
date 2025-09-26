@@ -79,10 +79,11 @@ body {
   h2{
     color: rgb(255, 56, 56);
     font-family: 'creepster';
-    font-size: 250px;
+    font-size: 100px;
     position: absolute;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   }
+  
   
