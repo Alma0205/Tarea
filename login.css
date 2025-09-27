@@ -1,22 +1,19 @@
 body {
   margin: 0;
-  text-align: center;
-  background-image: url('./images/collagefondo.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  line-height: 2;
-  font-size: 14px;
-  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: url('./images/collagefondo.jpg') center/cover no-repeat;
   font-family: Arial, sans-serif;
+  color: #fff;
 }
 
-h2,
-label {
-  font-family: 'Creepster', cursive;
-  color: rgb(231, 38, 38);
-  margin: 10px 0;
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 .login {
@@ -25,14 +22,25 @@ label {
   align-items: center;
   gap: 20px;
   max-width: 350px;
-  margin: 0 auto;
+  width: 100%;
   background: rgba(20, 18, 18, 0.7);
   padding: 30px 20px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgb(231, 38, 38);
 }
 
+.login h2 {
+  font-family: 'Creepster', cursive;
+  color: rgb(255, 56, 56);
+  margin: 0 0 20px;
+  font-size: 40px;
+}
 
+label {
+  font-family: 'Creepster', cursive;
+  color: rgb(231, 38, 38);
+  font-size: 18px;
+}
 
 input {
   width: 250px;
@@ -41,7 +49,6 @@ input {
   border-radius: 5px;
   border: none;
   padding: 5px 10px;
-  font-family: Arial, sans-serif;
 }
 
 button {
@@ -64,3 +71,69 @@ button:hover {
 a {
   text-decoration: none;
 }
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 30px 40px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer-contenido {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.footer-enlaces {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-enlaces li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.footer-enlaces li a:hover {
+  color: #fff;
+}
+ .menu-nav {
+    background-color: #141212;
+    padding: 15px 0;
+    height: 30px;
+  }
+  
+  .menu-lista {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+  
+  .menu-lista li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+  }
+  
+  .menu-lista li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }

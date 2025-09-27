@@ -1,56 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="register.css">
 </head>
 
-<body class="text-center text-white leading-[2] text-[14px] block">
-    <div class="relative w-full h-screen">
-        
-        <img src="./images/collage fondo.jpg" alt="fondo" class="absolute inset-0 w-full h-full object-cover z-0">
+<body>
+     <nav class="menu-nav">
+        <ul class="menu-lista">
+            <li><a href="home.html">Inicio</a></li>
+             <li><a href="pelicula.html">Películas</a></li>
+      <li><a href="detras.html">Curiosidades</a></li>
+        </ul>
+    </nav>
+    
+  <div class="registro-cuadro">
+    <h2>Registrarse</h2>
 
-        
-        <div class="relative z-10 flex flex-col items-center gap-10 pt-20">
-            <h2 class="text-4xl font-[Creepster]  text-[rgb(255, 56, 56)] ">Registrarse</h2>
+    <label for="Nombre">Nombre:</label>
+    <input type="text" id="Nombre" name="Nombre" placeholder="Nombre aquí" required>
 
-            <label class="text-2xl font-[Creepster]" for="Nombre">Nombre:</label>
-            <input class="border width-[250px] h-[25px] text-[14px] rounded-[5px] " type="text" id="Nombre" name="Nombre" placeholder="Nombre aquí" required>
+    <label for="lugar">¿De qué país eres?</label>
+    <select id="lugar" name="lugar" required>
+      <option value="seleccionar" selected>Seleccionar</option>
+      <option value="Colombia">Colombia</option>
+      <option value="México">México</option>
+      <option value="Panamá">Panamá</option>
+      <option value="Argentina">Argentina</option>
+      <option value="Venezuela">Venezuela</option>
+      <option value="Bolivia">Bolivia</option>
+      <option value="Chile">Chile</option>
+      <option value="Ecuador">Ecuador</option>
+      <option value="Perú">Perú</option>
+      <option value="Uruguay">Uruguay</option>
+      <option value="Otro">Otro</option>
+    </select>
 
-            <label class="text-2xl font-bold font-[Creepster]" for="lugar">¿De qué país eres?</label>
-            <select class="border w-64 h-10 text-sm rounded-lg" id="lugar" name="lugar" required>
-                <option value="Colombia">Colombia</option>
-                <option value="México">México</option>
-                <option value="Panamá">Panamá</option>
-                <option value="Argentina">Argentina</option>
-                <option value="Venezuela">Venezuela</option>
-                <option value="Bolivia">Bolivia</option>
-                <option value="Chile">Chile</option>
-                <option value="Ecuador">Ecuador</option>
-                <option value="Perú">Perú</option>
-                <option value="Uruguay">Uruguay</option>
-                <option value="Otro">Otro</option>
-                <option value="seleccionar" selected>Seleccionar</option>
-            </select>
+    <label for="edad">Edad</label>
+    <input type="number" id="edad" name="edad" placeholder="Agrega tu Edad" required>
 
-            <label class="text-2xl font-bold font-[Creepster]" for="edad">Edad</label>
-            <input class="border w-64 h-10 text-sm rounded-lg" type="number" id="edad" name="edad" placeholder="Agrega tu Edad" required>
+    <label for="correo">Correo</label>
+    <input type="email" id="correo" name="correo" placeholder="Ejemplo@gmail.com" required>
 
-            <label class="text-2xl font-bold font-[Creepster]" for="correo">Correo</label>
-            <input class="border w-64 h-10 text-sm rounded-lg" type="text" id="correo" name="correo" placeholder="Ejemplo@gmail.com" required>
+    <label for="contraseña">Contraseña</label>
+    <input type="password" id="contraseña" name="contraseña" placeholder="Agrega tu Contraseña" required>
 
-            <label class="text-2xl font-bold font-[Creepster]" for="contraseña">Contraseña</label>
-            <input class="border w-64 h-10 text-sm rounded-lg" type="text" id="contraseña" name="contraseña" placeholder="Agrega tu Contraseña" required>
+    <a href="login.html">
+      <button type="submit">Crear Cuenta</button>
+    </a>
+  </div>
 
-            <a href="login.html">
-                <button class="w-72 h-12 text-xl font-[Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif] bg-red-600 border rounded-lg mt-5 cursor-pointer text-white border-[0px] rounded-[10px] mt-[15px] cursor-pointer" type="submit">Crear Cuenta</button>
-            </a>
-        </div>
+  <footer class="footer">
+    <div class="footer-contenido">
+      <p>&copy; 2025 Web. Todos los derechos reservados.</p>
+      <ul class="footer-enlaces">
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Privacidad</a></li>
+      </ul>
     </div>
+  </footer>
 </body>
 
 </html>

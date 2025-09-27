@@ -1,72 +1,264 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cartelera de Películas de Terror</title>
     <link rel="stylesheet" href="pelicula.css">
     <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <nav class="menu-nav">
+        <ul class="menu-lista">
+            <li><a href="home.html">Inicio</a></li>
+             <li><a href="pelicula.html">Películas</a></li>
+      <li><a href="detras.html">Curiosidades</a></li>
+        </ul>
+    </nav>
+
     <div>
         <h2>Cartelera</h2>
     </div>
+
     <div class="carteleraspeli">
-       
-        <div>
-            <img src="./images/psicosis.jpg" class="psicosis">
-            <h3>Psicosis</h3>
-           <br><br><br>
-        </div>
-        <div>
-            <a href="resplandor.html"><img src="./images/Elresplandor.jpg" class="resplandor"></a>
-            <h3>El Resplandor</h3>
-            <br><br><br>
-        </div>
-        <div>
-            <a href="momia.html"><img src="./images/1968.jpg" class="Lanoche"></a>
-            <h3>La Noche de los Muertos <br>Vivientes</h3>
-        </div>
-        <div>
-            <a href="momia.html"><img src="./images/vampiro.jpg" class="vamp"></a>
-            <h3>Vampiro</h3>
-        </div>
-        <div>
-            <a href="momia.html"><img src="./images/exorcista.jpg" class="exo"></a>
-            <h3>El Exorcista</h3>
-        </div>
-        <div>
-            <a href="momia.html"><img src="./images/frankenstein.jpg" class="franqui"></a>
-            <h3>Frankenstein</h3>
-        </div>
-        <div>
-            <a href="momia.html"><img src="./images/momia.jpg" class="momia"></a>
-            <h3>La Momia</h3>
-        </div>
-        <div>
-            <a href="momia.html"><img src="./images/lobo.jpg" class="lobo"></a>
-            <h3>El Hombre Lobo</h3>
-        </div>
-        <div>
-            <a href="momia.html"><img src="./images/vampyr.jpg"class="vam"></a>
-            <h3>Vampyr</h3>
+        <div class="movie-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="./images/psicosis.jpg" alt="Psicosis" class="movie-image">
+                    <h3 class="movie-title">Psicosis</h3>
+                    <div class="movie-year">1960</div>
+                </div>
+                <div class="card-back">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Psicosis</h3>
+                        <div class="movie-description">
+                            Una secretaria roba $40,000 de su jefe y huye, deteniéndose en el remoto Motel Bates dirigido por Norman, un joven con una relación inquietante con su madre.
+                        </div>
+                        <div class="movie-details">
+                            <div class="detail-item"><span class="detail-label">Director:</span> Alfred Hitchcock</div>
+                            <div class="detail-item"><span class="detail-label">Duración:</span> 109 min</div>
+                            <div class="detail-item"><span class="detail-label">Género:</span> Terror, Suspense</div>
+                            <div class="detail-item"><span class="detail-label">Reparto:</span> Anthony Perkins, Janet Leigh</div>
+                        </div>
+                    </div>
+                    <div class="rating">★★★★★ 8.5/10</div>
+                </div>
+            </div>
         </div>
 
+        <div class="movie-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="./images/elresplandor.jpg" alt="El Resplandor" class="movie-image">
+                    <h3 class="movie-title">El Resplandor</h3>
+                    <div class="movie-year">1980</div>
+                </div>
+                <div class="card-back">
+                    <div class="movie-info">
+                        <h3 class="movie-title">El Resplandor</h3>
+                        <div class="movie-description">
+                            Jack Torrance acepta un trabajo como cuidador de invierno en el aislado Hotel Overlook, donde la soledad y las fuerzas sobrenaturales lo llevan a la locura.
+                        </div>
+                        <div class="movie-details">
+                            <div class="detail-item"><span class="detail-label">Director:</span> Stanley Kubrick</div>
+                            <div class="detail-item"><span class="detail-label">Duración:</span> 146 min</div>
+                            <div class="detail-item"><span class="detail-label">Género:</span> Terror Psicológico</div>
+                            <div class="detail-item"><span class="detail-label">Reparto:</span> Jack Nicholson, Shelley Duvall</div>
+                        </div>
+                    </div>
+                    <div class="rating">★★★★★ 8.4/10</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="./images/noche muertos vivientes.webp" alt="La Noche de los Muertos Vivientes" class="movie-image">
+                    <h3 class="movie-title">La Noche de los Muertos Vivientes</h3>
+                    <div class="movie-year">1968</div>
+                </div>
+                <div class="card-back">
+                    <div class="movie-info">
+                        <h3 class="movie-title">La Noche de los Muertos Vivientes</h3>
+                        <div class="movie-description">
+                            Un grupo de personas se refugia en una casa para protegerse de una horda de zombis que ha comenzado a caminar por la tierra.
+                        </div>
+                        <div class="movie-details">
+                            <div class="detail-item"><span class="detail-label">Director:</span> George A. Romero</div>
+                            <div class="detail-item"><span class="detail-label">Duración:</span> 96 min</div>
+                            <div class="detail-item"><span class="detail-label">Género:</span> Terror, Zombis</div>
+                            <div class="detail-item"><span class="detail-label">Reparto:</span> Duane Jones, Judith O'Dea</div>
+                        </div>
+                    </div>
+                    <div class="rating">★★★★☆ 7.8/10</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="./images/nosferatu.jpg" alt="Nosferatu" class="movie-image">
+                    <h3 class="movie-title">Nosferatu</h3>
+                    <div class="movie-year">1922</div>
+                </div>
+                <div class="card-back">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Nosferatu</h3>
+                        <div class="movie-description">
+                            El Conde Orlok, un vampiro de Transilvania, se muda a una ciudad alemana donde esparce la plaga de ratas y se obsesiona con la esposa de su agente inmobiliario.
+                        </div>
+                        <div class="movie-details">
+                            <div class="detail-item"><span class="detail-label">Director:</span> F.W. Murnau</div>
+                            <div class="detail-item"><span class="detail-label">Duración:</span> 94 min</div>
+                            <div class="detail-item"><span class="detail-label">Género:</span> Terror, Vampiros</div>
+                            <div class="detail-item"><span class="detail-label">Reparto:</span> Max Schreck, Gustav von Wangenheim</div>
+                        </div>
+                    </div>
+                    <div class="rating">★★★★☆ 8.0/10</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="./images/exorcista.jpg" alt="El Exorcista" class="movie-image">
+                    <h3 class="movie-title">El Exorcista</h3>
+                    <div class="movie-year">1973</div>
+                </div>
+                <div class="card-back">
+                    <div class="movie-info">
+                        <h3 class="movie-title">El Exorcista</h3>
+                        <div class="movie-description">
+                            Una niña es poseída por una entidad demoníaca, y su madre busca la ayuda de dos sacerdotes para salvar a su hija a través de un exorcismo.
+                        </div>
+                        <div class="movie-details">
+                            <div class="detail-item"><span class="detail-label">Director:</span> William Friedkin</div>
+                            <div class="detail-item"><span class="detail-label">Duración:</span> 122 min</div>
+                            <div class="detail-item"><span class="detail-label">Género:</span> Terror Sobrenatural</div>
+                            <div class="detail-item"><span class="detail-label">Reparto:</span> Ellen Burstyn, Linda Blair</div>
+                        </div>
+                    </div>
+                    <div class="rating">★★★★★ 8.1/10</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="./images/frankenstein.jpg" alt="Frankenstein" class="movie-image">
+                    <h3 class="movie-title">Frankenstein</h3>
+                    <div class="movie-year">1931</div>
+                </div>
+                <div class="card-back">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Frankenstein</h3>
+                        <div class="movie-description">
+                            El científico Henry Frankenstein crea vida a partir de partes de cadáveres, pero su creación se convierte en un monstruo que aterroriza a la población local.
+                        </div>
+                        <div class="movie-details">
+                            <div class="detail-item"><span class="detail-label">Director:</span> James Whale</div>
+                            <div class="detail-item"><span class="detail-label">Duración:</span> 70 min</div>
+                            <div class="detail-item"><span class="detail-label">Género:</span> Terror Clásico, Ciencia Ficción</div>
+                            <div class="detail-item"><span class="detail-label">Reparto:</span> Boris Karloff, Colin Clive</div>
+                        </div>
+                    </div>
+                    <div class="rating">★★★★☆ 7.8/10</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="./images/momia.jpg" alt="La Momia" class="movie-image">
+                    <h3 class="movie-title">La Momia</h3>
+                    <div class="movie-year">1932</div>
+                </div>
+                <div class="card-back">
+                    <div class="movie-info">
+                        <h3 class="movie-title">La Momia</h3>
+                        <div class="movie-description">
+                            Un arqueólogo despierta accidentalmente a la momia de un sacerdote egipcio, quien busca reunirse con la reencarnación de su amada perdida.
+                        </div>
+                        <div class="movie-details">
+                            <div class="detail-item"><span class="detail-label">Director:</span> Karl Freund</div>
+                            <div class="detail-item"><span class="detail-label">Duración:</span> 73 min</div>
+                            <div class="detail-label">Género:</span> Terror Clásico, Sobrenatural</div>
+                            <div class="detail-item"><span class="detail-label">Reparto:</span> Boris Karloff, Zita Johann</div>
+                        </div>
+                    </div>
+                    <div class="rating">★★★★☆ 7.1/10</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="./images/lobo.jpg" alt="El Hombre Lobo" class="movie-image">
+                    <h3 class="movie-title">El Hombre Lobo</h3>
+                    <div class="movie-year">1941</div>
+                </div>
+                <div class="card-back">
+                    <div class="movie-info">
+                        <h3 class="movie-title">El Hombre Lobo</h3>
+                        <div class="movie-description">
+                            Larry Talbot regresa a su hogar ancestral en Gales y es mordido por un hombre lobo, condenándolo a transformarse bajo la luna llena.
+                        </div>
+                        <div class="movie-details">
+                            <div class="detail-item"><span class="detail-label">Director:</span> George Waggner</div>
+                            <div class="detail-item"><span class="detail-label">Duración:</span> 70 min</div>
+                            <div class="detail-item"><span class="detail-label">Género:</span> Terror Clásico, Licantropía</div>
+                            <div class="detail-item"><span class="detail-label">Reparto:</span> Lon Chaney Jr., Claude Rains</div>
+                        </div>
+                    </div>
+                    <div class="rating">★★★★☆ 7.3/10</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="./images/vampyr.jpg" alt="Vampyr" class="movie-image">
+                    <h3 class="movie-title">Vampyr</h3>
+                    <div class="movie-year">1932</div>
+                </div>
+                <div class="card-back">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Vampyr</h3>
+                        <div class="movie-description">
+                            Un joven estudiante de lo oculto se encuentra en un pueblo plagado de vampiros, donde debe enfrentar fuerzas sobrenaturales para salvar a una joven.
+                        </div>
+                        <div class="movie-details">
+                            <div class="detail-item"><span class="detail-label">Director:</span> Carl Theodor Dreyer</div>
+                            <div class="detail-item"><span class="detail-label">Duración:</span> 75 min</div>
+                            <div class="detail-item"><span class="detail-label">Género:</span> Terror Artístico, Vampiros</div>
+                            <div class="detail-item"><span class="detail-label">Reparto:</span> Julian West, Maurice Schutz</div>
+                        </div>
+                    </div>
+                    <div class="rating">★★★★☆ 7.5/10</div>
+                </div>
+            </div>
+        </div>
     </div>
+
     <footer class="footer">
         <div class="footer-contenido">
-          <p>&copy; 2025 Mi Página Web. Todos los derechos reservados.</p>
-          <ul class="footer-enlaces">
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Privacidad</a></li>
-          </ul>
+            <p>&copy; 2025 Mi Página Web. Todos los derechos reservados.</p>
+            <ul class="footer-enlaces">
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Privacidad</a></li>
+            </ul>
         </div>
-      </footer>
-
+    </footer>
 </body>
-
 </html>

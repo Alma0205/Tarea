@@ -76,14 +76,18 @@ body {
   .footer-enlaces li a:hover {
     color: #fff;
   }
-  h2{
-    color: rgb(255, 56, 56);
-    font-family: 'creepster';
-    font-size: 100px;
-    position: absolute;
+
+  h2 {
+  color: rgb(255, 56, 56);
+  font-family: 'Creepster', cursive;
+  font-size: clamp(3rem, 12vw, 12rem);
+  position: absolute;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  }
+  text-align: center;
+  white-space: nowrap;
+}
+
   
   

@@ -25,15 +25,19 @@ main {
 
 .movie {
     background-color: #333;
-    border-radius: 10px;
-    padding: 15px;
+    border-radius: 15px;
+    padding: 10px;
     margin: 15px;
     width: 300px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+
 .movie img {
-    width: 100%;
+    width: 300px;
     border-radius: 10px;
 }
 
@@ -43,3 +47,32 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
+.menu-nav {
+    background-color: #141212;
+    padding: 15px 0;
+    height: 30px;
+  }
+  
+  .menu-lista {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+  
+  .menu-lista li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+  }
+  
+  .menu-lista li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
