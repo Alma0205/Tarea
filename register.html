@@ -10,14 +10,14 @@
 </head>
 
 <body>
-     <nav class="menu-nav">
-        <ul class="menu-lista">
-            <li><a href="home.html">Inicio</a></li>
-             <li><a href="pelicula.html">Películas</a></li>
+  <nav class="menu-nav">
+    <ul class="menu-lista">
+      <li><a href="home.html">Inicio</a></li>
+      <li><a href="pelicula.html">Películas</a></li>
       <li><a href="detras.html">Curiosidades</a></li>
-        </ul>
-    </nav>
-    
+    </ul>
+  </nav>
+
   <div class="registro-cuadro">
     <h2>Registrarse</h2>
 
@@ -49,10 +49,11 @@
     <label for="contraseña">Contraseña</label>
     <input type="password" id="contraseña" name="contraseña" placeholder="Agrega tu Contraseña" required>
 
-    <a href="login.html">
-      <button type="submit">Crear Cuenta</button>
-    </a>
+    <button type="button" id="crearCuenta">Crear Cuenta</button>
   </div>
+
+  
+  <div id="resultado" class="resultado"></div>
 
   <footer class="footer">
     <div class="footer-contenido">
@@ -64,6 +65,9 @@
       </ul>
     </div>
   </footer>
+
+ 
+  <script src="register.js"></script>
 </body>
 
 </html>
