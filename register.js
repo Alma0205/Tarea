@@ -29,5 +29,5 @@ botonCrear.addEventListener("click", (event) => {
   localStorage.setItem("loggedUser", JSON.stringify(nuevoUsuario));
 
 
-  window.location.href = "home.html";
+  window.location.href = "login.html";
 })
