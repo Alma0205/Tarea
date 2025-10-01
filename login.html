@@ -11,13 +11,15 @@
 </head>
 
 <body>
-   <nav class="menu-nav">
-        <ul class="menu-lista">
-            <li><a href="home.html">Inicio</a></li>
-             <li><a href="pelicula.html">Películas</a></li>
+  <nav class="menu-nav">
+    <ul class="menu-lista">
+      <li><a href="home.html">Inicio</a></li>
+      <li><a href="pelicula.html">Películas</a></li>
       <li><a href="detras.html">Curiosidades</a></li>
-        </ul>
-    </nav>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="register.html">register</a></li>
+    </ul>
+  </nav>
 
   <main>
     <div class="login">
@@ -29,9 +31,10 @@
       <label for="contraseña">Contraseña</label>
       <input type="password" id="contraseña" name="contraseña" placeholder="Escriba su contraseña" required />
 
-      <a href="home.html">
-        <button type="submit">Iniciar Sesión</button>
-      </a>
+   
+      <button id="btnLogin" type="button">Iniciar Sesión</button>
+
+      <p id="mensaje" style="margin-top: 15px; color: orange;"></p>
     </div>
   </main>
 
@@ -46,6 +49,8 @@
     </div>
   </footer>
 
+  <script src="login.js"></script>
 </body>
 
 </html>
+
